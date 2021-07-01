@@ -41,6 +41,7 @@ for dictionary in blanks:
     fs.append(dictionary['ans'])
 
 # Print the formatted Mad Lib
+#ending
 print(madlib % tuple(fs))
 feedback = input("Pretty funny, right? [y/n] ")
 if feedback == "y":
